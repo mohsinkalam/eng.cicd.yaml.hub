@@ -2,13 +2,13 @@
 Powershell must be installed first
 This script was tested on Linux and Windows and theoretically it can work on Mac
 
-###What does the script do?
+### What does the script do?
 It checks if the specified machine exists in VCenter or not.
 
-#####If the machine exists
+##### If the machine exists
 It checks if it is running or not and power it on if it isn't running.
 
-#####If the machine doesn't exist
+##### If the machine doesn't exist
 It creates a new machine with the same name ( cloned it from the specified template ). 
 Then power it on and wait until it gets an IP address
 
