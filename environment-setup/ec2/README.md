@@ -1,3 +1,5 @@
+### Prerequisites
+AWS_KEY and AWS_SECRET environment variables should contain AWS credentials
 
 ### What does the script do?
 It's a shell scripts that setups ec2 instance with given parameters
