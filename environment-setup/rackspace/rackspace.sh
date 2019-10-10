@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # See USAGE to see arguments available
 
+echo "ALARM!! THIS FUNCTIONALITY HASN'T BEEN IMPLEMENTED YET"
 
 USAGE="Arguments available:
    Argument                    Functionality                                   Required argument   Default value
