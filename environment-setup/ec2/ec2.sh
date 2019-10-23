@@ -215,7 +215,7 @@ echo "Run new instance with provided arguments and security groups sg-06403dbdfc
 TAG_SPEC="ResourceType=instance,Tags=[{Key=Name,Value=${DOMAIN}},{Key=env,Value=${ENV}},{Key=container,Value=${CONTAINER}},{Key=test,Value=TEST}]"
 instanceId=`aws ec2 run-instances \
                   --image-id ${AMI_ID} \
-                  --block-device-mappings 'DeviceName=/dev/sda1,Ebs={VolumeSize=40}' \
+                  --block-device-mappings 'DeviceName=/dev/sda1,Ebs={VolumeSize=80}' \
                   --count 1 \
                   --instance-type ${CPU} \
                   --key-name ${KEY_FILE} \
