@@ -1,0 +1,11 @@
+product: SLI (SLISEARCH,SLIFRONT,SLIAO)
+c4modelUrl: https%3a%2f%2fgithub.com%2ftrilogy-group%2feng.hub%2fblob%2fmaster%2fProducts%2fSLI+(SLISEARCH%2cSLIFRONT%2cSLIAO)%5cSLI.yaml
+cicdYamls:
+  - name: searchbuilder-config-prod-iad
+    key: 1353
+    c4softwareSystem: Search Builder
+    jiraProject: SLIAO
+    yamlUrl: https://github.com/trilogy-group/think3-sli-searchbuilder-config-prod-iad/blob/master/importOrder.yaml
+    dependencies: none
+    orderRank: 0
+    order: 1
