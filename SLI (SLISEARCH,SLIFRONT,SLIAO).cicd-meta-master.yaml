@@ -1,11 +1,11 @@
 product: SLI (SLISEARCH,SLIFRONT,SLIAO)
 c4modelUrl: https%3a%2f%2fgithub.com%2ftrilogy-group%2feng.hub%2fblob%2fmaster%2fProducts%2fSLI+(SLISEARCH%2cSLIFRONT%2cSLIAO)%5cSLI.yaml
 cicdYamls:
-   - name: localbrain-service
+  - name: localbrain-service
     key: 56
     c4softwareSystem: Template Builder
     jiraProject: SLIAO
     yamlUrl: https://github.com/trilogy-group/think3-sli-templatebuilder-localbrain-service/blob/master/importOrder.yaml
     dependencies: 253, 1027, 4323, 4387
     orderRank: 5
-    order: 1
+    order: 190
