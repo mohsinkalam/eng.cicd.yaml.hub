@@ -1,0 +1,11 @@
+product: SupportSoft (SUPPORTSOFT-MSSQL,SUPPORTSOFT-Openfire,SUPPORTSOFT-Redis)
+c4modelUrl: https://github.com/trilogy-group/eng.hub/blob/master/Products/Avolin%20-%20SupportSoft/SupportSoftWorkspace.yaml
+cicdYamls:
+  - name: avolin-supportsoft-ms-sql
+    key: 56
+    c4softwareSystem: Template Builder
+    jiraProject: SUPSOFT
+    yamlUrl: https://github.com/trilogy-group/avolin-supportsoft-ms-sql/blob/master/importOrder.yaml
+    dependencies:
+    orderRank: 0
+    order: 1
