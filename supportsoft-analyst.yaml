@@ -1,0 +1,11 @@
+product: SupportSoft-Analyst
+c4modelUrl: https://github.com/trilogy-group/eng.hub/blob/master/Products/Avolin%20-%20SupportSoft/SupportSoftWorkspace.yaml
+cicdYamls:
+  - name: avolin-supportsoft-auth-center
+    key: 56
+    c4softwareSystem: Template Builder
+    jiraProject: SUPSOFTA
+    yamlUrl: https://github.com/trilogy-group/aurea-supportsoft-analyst-gittf/blob/master/importOrder-auth-center.yaml
+    dependencies:
+    orderRank: 0
+    order: 1
